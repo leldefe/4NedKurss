@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower');
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Goudy+Bookletter+1911|IM+Fell+French+Canon+SC|Quicksand');
+
+
+/*font-family: 'Goudy Bookletter 1911', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'IM Fell French Canon SC', serif;
+font-family: 'Cinzel', serif;*/
+
+H1 { 
+    background: #F39C12;
+    color:white;
+    margin:px 0px 0px 0px;
+    font-size:25px;
+    padding:5px 10px 5px 10px;
+    text-align:left;    
+}
+
+H2{
+
+   font-size:25px; 
+   font-weight: bold;
+}
+body {
+    font-family:'Goudy Bookletter 1911', serif, verdana,helvetica,arial,sans-serif;
+    border:0px; margin:0px; padding:0px;
+    background-color: whitesmoke;
+       
+ background:url("https://pre00.deviantart.net/4e2f/th/pre/i/2013/027/9/1/vector_vector_vector_by_misora_roll-d5szbag.png");
+}
+header {
+    font-size:25px;
+}
+#aboutUs2{
+    background: #BC8F8F;
+    color:#BC8F8F;
+    padding-top: 20px;
+
+    }
+#aboutUs{
+   background-color:rgb(255,0,0, 0.7);
+}
+
+
+#moreBtn{
+    background-color: #343a40;
+    border-color: #343a40;
+    padding: 5px;
+
+}
+
+#demo{
+    font-size: 25px;
+    color:white;
+}
+
+.cell-border-left{
+    border-left: 2px solid black;
+}
+
+.cell-border-bottom{
+    border-bottom: 2px solid black;
+}
+.cell-border-right{
+    border-right: 2px solid black;
+}
+
+.cell-border-top{
+    border-top: 2px solid black;
+}
+
+#paddingtable{
+    padding-top: 35px;
+}
+.wrapper {
+    padding-top: 5px;
+    margin-bottom: 20px;
+    
+    text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}*/
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#footer1{
+    border-top: 20px;
+}
+
+/*sudoku2{
+    font-family: 'Goudy Bookletter 1911', serif;
+    float: left!important;
+
+}
