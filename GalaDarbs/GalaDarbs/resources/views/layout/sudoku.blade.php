@@ -375,7 +375,7 @@ for(var i = 0; i <= 80; i++){
 	if (randomBoard[i]!=userBoard[i]){
 		document.getElementById("value" + i).style.backgroundColor = "red";
 
-		submitToServer();
+		//submitToServer();
 
 		alert ("nav pareizi");
 		return false;
@@ -398,7 +398,7 @@ return true;
 
 	@php
 	$i=0;
-	$players = LeaderBoard::orderBy('time')->get();;
+	$players = LeaderBoard::orderBy('time')->get();
 
 	@endphp
 	<table class="table">
